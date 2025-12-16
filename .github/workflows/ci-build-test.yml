@@ -24,7 +24,7 @@ jobs:
       run: mvn -B compile --file pom.xml
 
    
-   verify-and-package:
+  verify-and-package:
 
     needs: build
 
